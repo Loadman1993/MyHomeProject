@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyHomeProject.API\MyHomeProject.API.csproj" />
+    <ProjectReference Include="..\MyHomeProject.DataAccessLayer\MyHomeProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\MyHomeProject.DomainLayer\MyHomeProject.DomainLayer.csproj" />
+    <ProjectReference Include="..\MyHomeProject.PresentationLayer\MyHomeProject.PresentationLayer.csproj" />
+  </ItemGroup>
+
+</Project>
