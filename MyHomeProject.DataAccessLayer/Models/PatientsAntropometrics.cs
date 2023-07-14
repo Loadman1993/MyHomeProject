@@ -5,7 +5,7 @@ namespace MyHomeProject.DataAccessLayer.Models
     public class PatientsAntropometrics
     {
         public uint Id { get; set; }
-        public int Height { get; set; }
+        public decimal Height { get; set; }
         public decimal Age { get; set; }
         public Gender Gender { get; set; }
         

@@ -4,12 +4,12 @@
     {
         public decimal Calculate(PatientsAntropometricsDTO antropometrics)
         {
-
+           
             decimal Q = antropometrics.Gender == Gender.Male ? 1.099m : 1;
 
-            decimal DecimalDoubleConverting(decimal value, double exponentiation)
+             decimal DecimalDoubleConverting(decimal value, double power)
             {
-                return Convert.ToDecimal(Math.Pow(Convert.ToDouble(value), exponentiation));
+                return Convert.ToDecimal(Math.Pow(Convert.ToDouble(value), power));
             }
 
             decimal CreatininePart = DecimalDoubleConverting(antropometrics.Height / 10 / antropometrics.SCreatinine, 0.516);

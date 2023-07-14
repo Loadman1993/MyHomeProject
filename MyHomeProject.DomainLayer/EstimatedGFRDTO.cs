@@ -1,4 +1,9 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace MyHomeProject.DomainLayer
 {
     public class EstimatedGFRDTO
@@ -10,6 +15,4 @@ namespace MyHomeProject.DomainLayer
         public decimal CreatininePottel { get; set; }
         public decimal CreatinineFlandersMetadata { get; set; }
     }
-    
 }
-
