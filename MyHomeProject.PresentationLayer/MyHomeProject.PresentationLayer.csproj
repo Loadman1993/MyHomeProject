@@ -19,7 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MyHomeProject.API\MyHomeProject.API.csproj" />
     <ProjectReference Include="..\MyHomeProject.DataAccessLayer\MyHomeProject.DataAccessLayer.csproj" />
-    <ProjectReference Include="..\MyHomeProject.DomainLayer\PediatricGlomerularFiltrationRateEstimation.DomainLayer.csproj" />
+    <ProjectReference Include="..\MyHomeProject.DomainLayer\MyHomeProject.DomainLayer.csproj" />
   </ItemGroup>
 
 </Project>
