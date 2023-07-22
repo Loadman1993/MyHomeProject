@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyHomeProject.DataAccessLayer\MyHomeProject.DataAccessLayer.csproj" />
+        <ProjectReference Include="..\PediatricGlomerularFiltrationRateEstimationAPI.DataAccessLayer\PediatricGlomerularFiltrationRateEstimationAPI.DataAccessLayer.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,9 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyHomeProject.API\MyHomeProject.API.csproj" />
-    <ProjectReference Include="..\MyHomeProject.DataAccessLayer\MyHomeProject.DataAccessLayer.csproj" />
-    <ProjectReference Include="..\MyHomeProject.DomainLayer\MyHomeProject.DomainLayer.csproj" />
+        <ProjectReference Include="..\PediatricGlomerularFiltrationRateEstimationAPI.API\PediatricGlomerularFiltrationRateEstimationAPI.API.csproj" />
+        <ProjectReference Include="..\PediatricGlomerularFiltrationRateEstimationAPI.DomainLayer\PediatricGlomerularFiltrationRateEstimationAPI.DomainLayer.csproj" />
   </ItemGroup>
 
 </Project>
