@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHomeProject.PresentationL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHomeProject.DataAccessLayer", "MyHomeProject.DataAccessLayer\MyHomeProject.DataAccessLayer.csproj", "{96D74B38-8973-49A3-818A-EF7CE4C931CA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHomeProject.DomainLayer", "MyHomeProject.DomainLayer\MyHomeProject.DomainLayer.csproj", "{2CAFD32F-ED88-4287-A1F7-8F3D1CD69E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PediatricGlomerularFiltrationRateEstimation.DomainLayer", "MyHomeProject.DomainLayer\PediatricGlomerularFiltrationRateEstimation.DomainLayer.csproj", "{2CAFD32F-ED88-4287-A1F7-8F3D1CD69E50}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyHomeProject.API", "MyHomeProject.API\MyHomeProject.API.csproj", "{965C99CE-BAEB-4744-BBD8-688E7DF15B7F}"
 EndProject
